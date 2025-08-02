@@ -8,11 +8,11 @@ from io import BytesIO
 model = torch.hub.load('yolov5', 'yolov5x', source='local')  # yolov5x.pt 불러오기
 model.eval()
 
-DB_HOST = os.getenv("DB_HOST", "localhost")
+DB_HOST = os.getenv("DB_HOST", "dpg-d275la95pdvs73cd2e10-a.oregon-postgres.render.com")
 DB_PORT = os.getenv("DB_PORT", "5432")
-DB_NAME = os.getenv("DB_NAME", "crowdinfodb")
-DB_USER = os.getenv("DB_USER", "postgres")
-DB_PASSWORD = os.getenv("DB_PASSWORD", "admin123")
+DB_NAME = os.getenv("DB_NAME", "crowdanalysis")
+DB_USER = os.getenv("DB_USER", "crowdanalysis_user")
+DB_PASSWORD = os.getenv("DB_PASSWORD", "EpeuXBKHEwoEJl4366SGIEEZo6G318Tk")
 
 def save_analysis_to_db(person_count: int, vehicle_count: int):
     analyzed_at = datetime.now()
