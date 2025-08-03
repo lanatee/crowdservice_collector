@@ -14,6 +14,7 @@ image_paths = [
     "kwanganri/kwanganri_1.jpg",
     "kwanganri/kwanganri_2.jpg",
     "kwanganri/kwanganri_3.jpg",
+    "kwanganri/kwanganri_4.jpg",
     ]  # 분석할 이미지들
 
 files = []
