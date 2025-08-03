@@ -5,7 +5,7 @@ from ultralytics import YOLO
 
 #model = torch.hub.load('yolov5', 'yolov5x', source='local')  # yolov5x.pt 불러오기
 #model = torch.hub.load('ultralytics/yolov5', 'yolov5x6', pretrained=True)
-model = YOLO("yolov8x.pt")
+model = YOLO("yolov8n.pt")
 #model.eval()
 
 
