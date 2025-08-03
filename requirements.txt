@@ -1,8 +1,8 @@
 fastapi
 uvicorn[standard]
-gunicorn
 python-dotenv
 requests
 torch
 Pillow
 ultralytics
+psycopg2
