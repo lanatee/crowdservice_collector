@@ -6,3 +6,4 @@ torch
 Pillow
 ultralytics
 psycopg2
+python-multipart
